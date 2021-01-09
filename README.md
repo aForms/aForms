@@ -1,27 +1,31 @@
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Travis](https://api.travis-ci.com/adornala/aForms.svg?branch=main)](https://api.travis-ci.com/adornala/aForms.svg?branch=main)
+[![Dev Dependencies](https://status.david-dm.org/gh/adornala/aForms.svg)](https://status.david-dm.org/gh/adornala/aForms.svg)
+[![HitCount](http://hits.dwyl.com/adornala/aForms.svg)](http://hits.dwyl.com/adornala/aForms)
+[![Known Vulnerabilities](https://snyk.io/test/github/adornala/aForms/badge.svg?targetFile=package.json)](https://snyk.io/test/github/adornala/aForms?targetFile=package.json)
+[![aForms](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/jacxp4&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/jacxp4/runs)
+
 # AForms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0.
+Enhanced forms library built using fomantic-ui, jQuery and form.io.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Typescript ES Modules
+- Customizable styles using [Fomantic-ui](https://fomantic-ui.com/) - 2.8 and up
+- Enhancing json generated using [formio.js](https://github.com/formio/formio.js)
+- ADA Compatible
 
-## Code scaffolding
+### NPM scripts
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - `npm t`: Run test suite
+ - `npm start`: Run `npm run build` in watch mode
+ - `npm run test:watch`: Run test suite in [interactive watch mode](http://facebook.github.io/jest/docs/cli.html#watch)
+ - `npm run test:prod`: Run linting and generate coverage
+ - `npm run build`: Generate bundles and typings, create docs
+ - `npm run lint`: Lints code
+ - `npm run commit`: Commit using conventional commit style ([husky](https://github.com/typicode/husky) will tell you to use it if you haven't :wink:)
 
-## Build
+## License
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[The MIT License (MIT)](./LICENSE.md)
